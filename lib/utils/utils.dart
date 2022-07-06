@@ -38,12 +38,12 @@ class StaticUtils {
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "https://play.google.com/store/apps/details?id=app.suffix.finance"
   ];
 
   static const String resume =

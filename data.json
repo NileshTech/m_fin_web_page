@@ -6,32 +6,32 @@
         "Technical Writer",
         "UI/UX Designer"
     ],
-    "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
-    "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
+    "blackWhitePhotoURL": "https://play.google.com/store/apps/details?id=app.suffix.finance",
+    "coloredPhotoURL": "https://play.google.com/store/apps/details?id=app.suffix.finance",
     "socialLinks": [
         {
             "platform": "facebook",
-            "url": "https://facebook.com/mhmzdev"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         },
         {
             "platform": "instagram",
-            "url": "https://instagram.com/mhmzdev"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         },
         {
             "platform": "twitter",
-            "url": "https://twitter.com/mhmzdev"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         },
         {
             "platform": "linkedin",
-            "url": "https://linkedin.com/in/mhmzdev"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         },
         {
             "platform": "github",
-            "url": "https://github.com/mhmzdev"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         },
         {
             "platform": "medium",
-            "url": "https://mhamzadev.medium.com/"
+            "url": "https://play.google.com/store/apps/details?id=app.suffix.finance"
         }
     ],
     "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
@@ -145,15 +145,15 @@
     "contact": [
         {
             "param": "address",
-            "value": "Attock, Pakistan"
+            "value": "पुणे, महाराष्ट्र, भारत"
         },
         {
             "param": "phone",
-            "value": "+92 346 0159889"
+            "value": "+91 968 9416867"
         },
         {
             "param": "email",
-            "value": "hamza.6.shakeel@gmail.com"
+            "value": "suffixtechservices@gmail.com"
         }
     ]
 }

@@ -97,12 +97,12 @@ class AboutTab extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   AboutMeData(
-                    data: "Name",
-                    information: "Muhammad Hamza",
+                    data: "App Name",
+                    information: "m-fin मराठी",
                   ),
                   AboutMeData(
-                    data: "Age",
-                    information: "24",
+                    data: "Downloads",
+                    information: "500+",
                   ),
                 ],
               ),
@@ -114,11 +114,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "suffixtechservices@gmail.com",
                   ),
                   AboutMeData(
                     data: "From",
-                    information: "Attock, PK",
+                    information: "पुणे, महाराष्ट्र, भारत",
                   ),
                 ],
               ),

@@ -41,28 +41,28 @@ class HomeMobile extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HEY THERE! ",
+                      "मराठी finance community ",
                       style: AppText.b2!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
                     ),
                     Space.x!,
-                    Image.asset(
+                    /* Image.asset(
                       StaticUtils.hi,
                       height: AppDimensions.normalize(10),
-                    ),
+                    ),*/
                   ],
                 ),
                 Space.y!,
                 Text(
-                  "Muhammad",
+                  "m-fin मराठी",
                   style: AppText.h3!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Android App",
                   style: AppText.h3b!.copyWith(
                     height: 1,
                   ),
@@ -77,17 +77,27 @@ class HomeMobile extends StatelessWidget {
                     AnimatedTextKit(
                       animatedTexts: [
                         TyperAnimatedText(
-                          ' Flutter Developer',
+                          ' महाराष्ट्र सरकार चे GR',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
                         TyperAnimatedText(
-                          ' UI/UX Enthusiast',
+                          ' Cibil Information',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
                         TyperAnimatedText(
-                          ' A friend :)',
+                          ' मराठी blogs',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: AppText.b1,
+                        ),
+                        TyperAnimatedText(
+                          ' Play games ',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: AppText.b1,
+                        ),
+                        TyperAnimatedText(
+                          ' Earn Rewards',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
