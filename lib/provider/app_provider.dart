@@ -22,7 +22,7 @@ class AppProvider extends ChangeNotifier {
     String? stringTheme = prefs.getString('theme');
 
     ThemeMode? theme =
-        stringTheme == null ? ThemeMode.light : themeMap[stringTheme];
+        stringTheme == null ? ThemeMode.dark : themeMap[stringTheme];
 
     if (theme == null) {
       await prefs.setString(

@@ -25,10 +25,10 @@ class AboutMobile extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nAbout Me',
+            text: '\nAbout ',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'आमच्याबद्दल जाणून घ्या :)',
           ),
           Space.y1!,
           Image.asset(
@@ -41,7 +41,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Who am I?",
+              "आम्ही कोण आहोत?",
               style: AppText.b2!.copyWith(
                 color: AppTheme.c!.primary,
               ),
@@ -95,16 +95,16 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           const AboutMeData(
-            data: "Name",
-            information: "Muhammad Hamza",
+            data: "App Name",
+            information: "m-fin मराठी",
           ),
           const AboutMeData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "suffixtechservices@gmail.com",
           ),
           Space.y!,
           OutlinedButton(
-              child: const Text("Resume"),
+              child: const Text("Download"),
               onPressed: () {
                 kIsWeb
                     ? html.window.open(StaticUtils.resume, "pdf")

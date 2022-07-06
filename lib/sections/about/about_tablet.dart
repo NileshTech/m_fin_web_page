@@ -26,12 +26,12 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nAbout Me',
+              text: '\nAbout ',
             ),
           ),
           const Center(
             child: CustomSectionSubHeading(
-              text: 'Get to know me :)',
+              text: 'आमच्याबद्दल जाणून घ्या :)',
             ),
           ),
           Space.y1!,
@@ -133,7 +133,7 @@ class AboutTab extends StatelessWidget {
                 child: OutlinedButton(
                   onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
                   child: const Text(
-                    "Resume",
+                    "Download App",
                   ),
                 ),
               ),

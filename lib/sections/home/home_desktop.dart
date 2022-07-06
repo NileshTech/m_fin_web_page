@@ -50,12 +50,12 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'WELCOME TO MY PORTFOLIO! ',
+                      'मराठी finance community ',
                       style: AppText.b1!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
                     ),
-                    EntranceFader(
+                    /*  EntranceFader(
                       offset: const Offset(0, 0),
                       delay: const Duration(seconds: 2),
                       duration: const Duration(milliseconds: 800),
@@ -63,12 +63,12 @@ class HomeDesktop extends StatelessWidget {
                         StaticUtils.hi,
                         height: AppDimensions.normalize(12),
                       ),
-                    ),
+                    ),*/
                   ],
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
+                  "m-fin मराठी",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontSize: AppDimensions.normalize(25),
@@ -76,7 +76,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Android App",
                   style: AppText.h1b!.copyWith(
                     fontSize: AppDimensions.normalize(25),
                     height: 1,
@@ -95,17 +95,27 @@ class HomeDesktop extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter Developer',
+                            ' महाराष्ट्र सरकारचा जीआर',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Enthusiast',
+                            ' Cibil Information',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' A friend :)',
+                            ' मराठी blogs',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
+                            ' Play games ',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
+                            ' Earn Rewards',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

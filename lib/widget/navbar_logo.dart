@@ -14,10 +14,10 @@ class NavBarLogo extends StatelessWidget {
           style: AppText.b1,
         ),
         Text(
-          "Hamza",
+          "m-fin मराठी",
           style: AppText.b1b!.copyWith(
-            fontFamily: 'Agustina',
-          ),
+              // fontFamily: 'Agustina',
+              ),
         ),
         Text(
           MediaQuery.of(context).size.width >= 1000 ? " />\t\t" : " />",

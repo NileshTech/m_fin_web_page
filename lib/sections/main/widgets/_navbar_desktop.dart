@@ -33,15 +33,13 @@ class _NavbarDesktop extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                html.window.open(
-                  StaticUtils.resume,
-                  "pdf",
-                );
+                openURL(
+                    "https://play.google.com/store/apps/details?id=app.suffix.finance");
               },
               child: Padding(
                 padding: Space.all(1.25, 0.45),
                 child: Text(
-                  'RESUME',
+                  'DOWNLOAD',
                   style: AppText.l1b,
                 ),
               ),

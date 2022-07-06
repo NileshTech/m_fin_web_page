@@ -11,7 +11,7 @@ class StaticUtils {
 
   // photos
   static const String mobilePhoto = 'assets/photos/mobile.png';
-  static const String coloredPhoto = 'assets/photos/colored.png';
+  static const String coloredPhoto = 'assets/photos/black-white.png';
   static const String blackWhitePhoto = 'assets/photos/black-white.png';
 
   // work
@@ -47,9 +47,10 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+      'https://play.google.com/store/apps/details?id=app.suffix.finance';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub =
+      'https://play.google.com/store/apps/details?id=app.suffix.finance';
 }
 
 class BodyUtils {

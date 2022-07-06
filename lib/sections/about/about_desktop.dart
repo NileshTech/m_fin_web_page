@@ -25,10 +25,10 @@ class AboutDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nAbout Me',
+            text: '\nAbout',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'आमच्याबद्दल जाणून घ्या :)',
           ),
           Space.y1!,
           Row(
@@ -47,7 +47,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Who am I?',
+                        'आम्ही कोण आहोत?',
                         style: AppText.b1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -101,12 +101,12 @@ class AboutDesktop extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
                               AboutMeData(
-                                data: "Name",
-                                information: "Muhammad Hamza",
+                                data: "App Name",
+                                information: "m-fin मराठी",
                               ),
                               AboutMeData(
-                                data: "Age",
-                                information: "24",
+                                data: "Downloads",
+                                information: "500+",
                               ),
                             ],
                           ),
@@ -116,11 +116,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "suffixtechservices@gmail.com",
                               ),
                               AboutMeData(
                                 data: "From",
-                                information: "Attock, PK",
+                                information: "पुणे, महाराष्ट्र, भारत",
                               ),
                             ],
                           ),
@@ -133,10 +133,10 @@ class AboutDesktop extends StatelessWidget {
                             height: AppDimensions.normalize(13),
                             width: AppDimensions.normalize(40),
                             child: OutlinedButton(
-                              onPressed: () =>
-                                  html.window.open(StaticUtils.resume, 'pdf'),
+                              onPressed: () => openURL(
+                                  "https://play.google.com/store/apps/details?id=app.suffix.finance"),
                               child: const Text(
-                                "Resume",
+                                "Download",
                               ),
                             ),
                           ),
